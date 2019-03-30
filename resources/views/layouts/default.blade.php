@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>@yield('title', 'Boiler App') - Laravel 入门教程</title>
+    <title>@yield('title', 'Boiler App') - 锅炉 管理后台</title>
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
   </head>
  <body>
