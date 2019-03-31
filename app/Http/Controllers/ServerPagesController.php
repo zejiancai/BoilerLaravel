@@ -8,7 +8,6 @@ class ServerPagesController extends Controller
 {
     public function main()
     {
-    	return '待开发'；
-        // return view('server_pages.index');
+    	return '待开发';
     }
 }
