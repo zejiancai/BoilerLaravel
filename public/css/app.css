@@ -10741,28 +10741,26 @@ section.user_info h1 {
   margin-top: 0px;
 }
 
-.navbar-static-top .dropdown-menu {
-  padding: 0px;
+.server_footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #000;
 }
 
-.navbar-static-top .dropdown-menu li a {
-  border-bottom: 1px solid #d8d8d8;
-  line-height: 2.4;
+.server_footer .container {
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
-.navbar-static-top .dropdown-menu li a .glyphicon {
-  margin-right: 8px;
+.server_footer .container p {
+  margin: 19px 0;
+  color: #c1c1c1;
 }
 
-/* Sticky footer styles */
-
-html {
-  position: relative;
-  min-height: 100%;
-}
-
-body {
-  /* Margin bottom by footer height */
-  margin-bottom: 60px;
+.server_footer .container p a {
+  color: inherit;
 }
 

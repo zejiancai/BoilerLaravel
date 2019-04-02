@@ -82,18 +82,27 @@ section.user_info {
     border-top: 4px solid #00b5ad;
     margin-bottom: 40px;
     margin-top: 0px;
+}
+.server_footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #000;
 
-    .dropdown-menu {navbar-brand
-        padding: 0px;
+  .container {
+    padding-right: 15px;
+    padding-left: 15px;
 
-        li a {
-            border-bottom: 1px solid #d8d8d8;
-            line-height: 2.4;
+    p {
+      margin: 19px 0;
+      color: #c1c1c1;
 
-            .glyphicon {
-                margin-right: 8px;
-            }
-        }
+      a {
+        color: inherit;
+      }
     }
+  }
 }
 
