@@ -3,5 +3,5 @@
 </a>
 <h1>{{ $user->name }}</h1>
 <h1>
-<a class="btn btn-lg btn-success" href="{{ route('main') }}" role="button">进入后台</a>
+<a class="btn btn-lg btn-success" href="{{ route('index') }}" role="button">进入后台</a>
 </h1>

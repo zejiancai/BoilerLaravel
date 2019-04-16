@@ -22,6 +22,6 @@ Route::post('login', 'SessionsController@store')->name('login');
 Route::delete('logout', 'SessionsController@destroy')->name('logout');
 
 
-Route::get('/main', 'ServerPagesController@main')->name('main');
+Route::get('/index', 'ServerPagesController@main')->name('server.index');
 
 Route::get('/test','ServerPagesController@test')->name('test');
