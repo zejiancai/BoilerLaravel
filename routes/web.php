@@ -23,3 +23,5 @@ Route::delete('logout', 'SessionsController@destroy')->name('logout');
 
 
 Route::get('/main', 'ServerPagesController@main')->name('main');
+
+Route::get('/test','ServerPagesController@test')->name('test');
