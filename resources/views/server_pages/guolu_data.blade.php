@@ -42,6 +42,7 @@
             <td colspan="3" class="btgn">电动设备系统</td>
             <td colspan="2" class="btgn">烟风系统</td>
             <td colspan="2" class="btgn">除氧系统</td>
+            <td colspan="1" class="btgn" rowspan="2">更新时间</td>
         </tr>
 
         <tr>
@@ -74,6 +75,7 @@
                 <td>{{$Boiler -> temperatureOfWind}}</td>
                 <td>{{$Boiler -> oxygenOfLevel}}</td>
                 <td>{{$Boiler -> oxygenOfPressure}}</td>
+                <td>{{$Boiler -> updated_at}}</td>
             </tr>
         @endforeach
     </table>
