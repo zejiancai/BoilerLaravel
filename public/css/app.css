@@ -10746,7 +10746,7 @@ section.user_info h1 {
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
-  height: 160px;
+  height: 60px;
   background-color: #000;
 }
 
