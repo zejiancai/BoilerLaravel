@@ -33,7 +33,13 @@
   </div>
 
   <!-- Scripts -->
-  <script src="{{ mix('js/app.js') }}"></script>
+  <script src="{{ mix('js/app.js') }}">
+    //启用滚动条
+   $(document.body).css({
+     "overflow-x":"auto",
+     "overflow-y":"auto"
+   });
+  </script>
 </body>
 
 </html>
