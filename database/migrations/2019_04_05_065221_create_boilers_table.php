@@ -24,6 +24,7 @@ class CreateBoilersTable extends Migration
             $table->string('temperatureOfWind')->default(0)->comment('烟风温度');
             $table->string('oxygenOfLevel')->default(0)->comment('除氧器液位');
             $table->string('oxygenOfPressure')->default(0)->comment('除氧器压力');
+            $table->string('upTime')->default(0)->comment('app端更新时间');
             $table->timestamps();
         });
     }

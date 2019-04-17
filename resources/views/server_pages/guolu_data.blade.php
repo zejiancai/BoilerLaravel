@@ -75,7 +75,7 @@
                 <td>{{$Boiler -> temperatureOfWind}}</td>
                 <td>{{$Boiler -> oxygenOfLevel}}</td>
                 <td>{{$Boiler -> oxygenOfPressure}}</td>
-                <td>{{$Boiler -> updated_at}}</td>
+                <td>{{$Boiler -> upTime}}</td>
             </tr>
         @endforeach
     </table>
