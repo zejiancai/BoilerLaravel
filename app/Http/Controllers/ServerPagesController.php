@@ -9,7 +9,7 @@ class ServerPagesController extends Controller
 {
     public function main()
     {
-    	$Boilers = Boiler::all()->orderBy('id');
+    	$Boilers = Boiler::orderBy('id')->get();
         //dd($Boilers);
         return View('server_pages.guolu_data',compact('Boilers'));
     }
