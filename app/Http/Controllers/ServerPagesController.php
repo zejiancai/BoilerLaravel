@@ -9,7 +9,9 @@ class ServerPagesController extends Controller
 {
     public function main()
     {
-    	return View('server_pages.index');
+    	$Boilers = Boiler::all();
+        //dd($Boilers);
+        return View('server_pages.guolu_data',compact('Boilers'));
     }
 
     public function test()

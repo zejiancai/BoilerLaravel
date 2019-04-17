@@ -12,7 +12,6 @@
       <!-- Left Side Of Navbar -->
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active"><a class="nav-link" href="#">首页</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">运行</a></li>
         <li class="nav-item"><a class="nav-link" href="#">报警</a></li>
         <li class="nav-item"><a class="nav-link" href="#">排班</a></li>
         <li class="nav-item"><a class="nav-link" href="#">考勤</a></li>
