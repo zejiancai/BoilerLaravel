@@ -16,8 +16,19 @@ class GuoLuDataController extends Controller
 
     	$boiler = Boiler::find($request->id);
     	$boiler->update([
-    			'timeOfCheck'=> $request->timeOfCheck,
-    			'waterOfFlow' => $request->waterOfFlow
+    			'waterOfFlow' => $request->waterOfFlow,
+                'coalOfFlow' => $request->coalOfFlow,
+                'pressureOfSteam' => $request->pressureOfSteam,
+                'temperatureOfSteam' => $request->temperatureOfSteam,
+                'waterLevelOfSteam' => $request->waterLevelOfSteam,
+                'windOfElectricity' => $request->windOfElectricity,
+                'driveWindOfElectricity' => $request->driveWindOfElectricity,
+                'pumpOfElectricity' => $request->pumpOfElectricity,
+                'pressureOfWind' => $request->pressureOfWind,
+                'temperatureOfWind' => $request->temperatureOfWind,
+                'oxygenOfLevel' => $request->oxygenOfLevel,
+                'oxygenOfPressure' => $request->oxygenOfPressure,
+                'upTime'=>$request->upTime,
     			]);
 
     	// $boiler = Boiler::create([
